@@ -10,14 +10,14 @@
 @import url('https://fonts.googleapis.com/css?family=Ubuntu');
 @font-face {
     font-family: 'Exo2-LightCondensed';
-    src: url('./font/original_Exo2-LightCondensed.eot?#iefix') format('embedded-opentype'), url('./font/original_Exo2-LightCondensed.woff') format('woff'), url('./font/original_Exo2-LightCondensed.ttf') format('truetype');
+    src: url('./font/Exo2.eot?#iefix') format('embedded-opentype'), url('./font/Exo2.woff') format('woff'), url('./font/Exo2.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'Oxygen';
-    src: url('./font/original_Oxygen.eot?#iefix') format('embedded-opentype'), url('./font/original_Oxygen.woff') format('woff'), url('./font/original_Oxygen.ttf') format('truetype');
+    src: url('./font/Oxygen.eot?#iefix') format('embedded-opentype'), url('./font/Oxygen.woff') format('woff'), url('./font/Oxygen.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
 }
