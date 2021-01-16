@@ -1,5 +1,13 @@
 @charset "utf-8";
-@import url('https://fonts.googleapis.com/css?family=Ubuntu');
+@font-face {
+    font-family: 'Ubuntu';
+    font-weight: normal;
+    font-style: normal;
+    src: url('./font/Ubuntu.eot');
+    src: url('./font/Ubuntu.eot?#iefix') format('embedded-opentype'), url('./font/Ubuntu.ttf') format('truetype'), url('./font/Ubuntu.woff') format('woff');
+    font-display: swap;
+}
+
 @font-face {
     font-family: "Flaticon";
     font-weight: normal;
