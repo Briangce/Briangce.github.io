@@ -74,7 +74,7 @@ nav ul li a:hover {
 }
 
 .px {
-    background: url(./img/b1.jpg);
+    background: url(./img/b1.webp);
     min-height: 100%;
     position: relative;
     opacity: .75;
@@ -180,7 +180,7 @@ h5 {
 }
 
 footer {
-    background-image: url("./images/f1.png");
+    background-image: url("./images/f1.webp");
     background-position: bottom;
     background-repeat: repeat;
     color: #e0e0e0;
