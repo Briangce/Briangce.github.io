@@ -1,4 +1,5 @@
 @charset "utf-8";
+@import url('https://fonts.googleapis.com/css?family=Ubuntu');
 @font-face {
     font-family: "Flaticon";
     src: url("./font/Flaticon.eot");
@@ -7,7 +8,6 @@
     font-style: normal;
 }
 
-@import url('https://fonts.googleapis.com/css?family=Ubuntu');
 @font-face {
     font-family: 'Exo2-LightCondensed';
     src: url('./font/Exo2.eot?#iefix') format('embedded-opentype'), url('./font/Exo2.woff') format('woff'), url('./font/Exo2.ttf') format('truetype');
