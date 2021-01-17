@@ -3,10 +3,4 @@
 php_value display_errors 1
 # DO NOT REMOVE OR MODIFY THIS LINE AND THE LINES ABOVE HTID:11587784:
 
-<ifmodule mod_expires.c>
-ExpiresActive On
-ExpiresDefault A3600
-<filesmatch ".(jpg|JPG|gif|GIF|png|css|ico|js|webp|ttf|woff|)$">
-ExpiresDefault "access plus 1 month"
-</filesmatch>
-</ifmodule>
+Header set Cache-Control "max-age=2592000,public"
