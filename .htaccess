@@ -1,6 +1,7 @@
-
 # HTID:11587784: DO NOT REMOVE OR MODIFY THIS LINE AND THE LINES BELOW
 php_value display_errors 1
+<ifmodule mod_expires.c>
+ExpiresActive On
+ExpiresDefault "access plus 1 month"
+</ifmodule>
 # DO NOT REMOVE OR MODIFY THIS LINE AND THE LINES ABOVE HTID:11587784:
-
-Header set Cache-Control "max-age=2592000,public"
