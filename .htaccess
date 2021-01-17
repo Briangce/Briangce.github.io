@@ -1,7 +1,14 @@
 # HTID:11587784: DO NOT REMOVE OR MODIFY THIS LINE AND THE LINES BELOW
 php_value display_errors 1
-<ifmodule mod_expires.c>
-ExpiresActive On
-ExpiresDefault "access plus 1 month"
+
+<ifmodule mod_headers.c>
+
+<filesMatch ".(css|png|ico|js|png|webp|fonts|img|images|archivos)$">
+Header set Cache-Control "max-age=2592000, public, must-revalidate"
+</filesMatch>
+
 </ifmodule>
+
+
+
 # DO NOT REMOVE OR MODIFY THIS LINE AND THE LINES ABOVE HTID:11587784:
