@@ -190,6 +190,10 @@ h5 {
     margin: 0;
 }
 
+div#foot {
+    margin-left: 23px;
+}
+
 footer {
     background-image: url("./images/f1.webp");
     background-position: bottom;
@@ -199,7 +203,7 @@ footer {
     font-size: 16px;
     text-align: left;
     line-height: 1.5;
-    padding: 1em 0;
+    display: flex;
     height: 330px;
     clear: both;
 }
@@ -223,7 +227,6 @@ footer>a:actived {
 
 .footer {
     display: inline-block;
-    float: left;
     width: 30.3333%;
     margin-right: 3%;
     position: relative;
