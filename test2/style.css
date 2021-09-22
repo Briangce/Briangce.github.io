@@ -1,0 +1,77 @@
+@font-face {
+    font-family: 'titillium-light';
+    src: url('./font/titillium-light.woff2') format('woff2'), url('./font/titillium-light.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'titillium';
+    src: url('./font/titillium-regular.woff2') format('woff2'), url('./font/titillium-regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    background-image: url(./img/bg.webp);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-color: #004871;
+    color: #ffffff;
+}
+
+.container {
+    font-family: 'titillium';
+}
+
+.a {
+    padding: 10% 0px 50px 0px;
+}
+
+.b h2 {
+    letter-spacing: 1px;
+    font-family: 'titillium-light';
+    font-weight: 600;
+}
+
+.c {
+    padding: 0 0 50px 0;
+    font-stretch: expanded;
+    font-family: 'titillium-light';
+    letter-spacing: 2px;
+}
+
+.e {
+    margin: 0;
+    padding: 30px 0 0 0;
+}
+
+
+/*Grid Breakpoints*/
+
+@media screen and (max-width:768px) {
+    .e>div {
+        padding-bottom: 30px;
+    }
+    body {
+        background-size: 100%;
+    }
+}
+
+@media screen and (max-width:1840px) {
+    .e>div {
+        max-width: 100%;
+    }
+}
+
+
+/*Container Max-widths*/
+
+@media screen and (max-width:540px) {
+    body {
+        background-size: 100%;
+    }
+    .mx {
+        max-width: 80%;
+    }
+}
