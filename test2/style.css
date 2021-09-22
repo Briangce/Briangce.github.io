@@ -3,6 +3,7 @@
     src: url('./font/titillium-light.woff2') format('woff2'), url('./font/titillium-light.woff') format('woff');
     font-weight: normal;
     font-style: normal;
+    font-display: swap;
 }
 
 @font-face {
@@ -10,6 +11,7 @@
     src: url('./font/titillium-regular.woff2') format('woff2'), url('./font/titillium-regular.woff') format('woff');
     font-weight: normal;
     font-style: normal;
+    font-display: swap;
 }
 
 body {
