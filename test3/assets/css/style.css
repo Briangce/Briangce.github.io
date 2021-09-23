@@ -315,7 +315,6 @@ h6 {
 .navbar li:hover>a:before,
 .navbar .active:before {
     visibility: visible;
-    width: 100%;
 }
 
 .navbar a:hover,
@@ -410,7 +409,6 @@ h6 {
     .navbar.navbar-mobile a.acessar:hover {
         background: #c5e4c6;
         color: #558d42;
-        transition: all 0.5s ease-in-out 0s;
     }
 }
 
@@ -440,6 +438,7 @@ h6 {
     background-color: #fff;
     overflow-y: auto;
     transition: 0.3s;
+    text-align: center;
 }
 
 .navbar-mobile a {
