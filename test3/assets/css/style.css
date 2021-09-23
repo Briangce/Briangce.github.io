@@ -231,6 +231,7 @@ h6 {
 
 .navbar li {
     position: relative;
+    border-bottom: solid 1px #6fac5b;
 }
 
 .navbar>ul>li {
@@ -435,13 +436,10 @@ h6 {
     display: block;
     position: absolute;
     top: 40px;
-    right: 10px;
-    left: 10px;
+    left: 0;
     background-color: #fff;
     overflow-y: auto;
     transition: 0.3s;
-    margin: 0 auto;
-    width: 400px;
 }
 
 .navbar-mobile a {
