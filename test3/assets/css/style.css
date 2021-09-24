@@ -1449,8 +1449,8 @@ section {
 h5>img {
     margin-right: 7px;
     width: 40px;
-    -webkit-box-shadow: 3px 3px 4px #0000007a;
-    box-shadow: 3px 3px 4px #0000007a;
+    -webkit-box-shadow: 1px 1px 4px #0000007a;
+    box-shadow: 1px 1px 4px #0000007a;
 }
 
 @-webkit-keyframes animate-loading {
