@@ -1281,10 +1281,15 @@ section {
     fill: #bababa
 }
 
-#svg-map text {
+/*#svg-map text {
     fill: #fff;
-    font: 12px Arial-BoldMT, sans-serif;
+    font-size: 12px !important;
+    font-family: 'Arial-BoldMT', sans-serif !important;
     cursor: pointer
+}*/
+
+svg#svg-map{
+    font-size: 12px !important;
 }
 
 #svg-map a {

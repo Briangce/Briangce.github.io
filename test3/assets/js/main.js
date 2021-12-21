@@ -4,6 +4,14 @@
 * Author: BootstrapMade.com
 * License: https://bootstrapmade.com/license/
 */
+
+window.addEventListener('load', () => {
+  document.querySelector('#svg-map').style.cssText = 'font-size", "12px !important;'; 
+});
+document.querySelector('#svg-map').addEventListener('click', () => {
+  document.querySelector('#svg-map').style.cssText = 'font-size", "12px !important;'; 
+});
+
 (function() {
   "use strict";
 
@@ -271,7 +279,7 @@
   /**
    * Animation on scroll
    */
-  window.addEventListener('load', () => {
+  window.addEventListener('DOMContentLoaded', () => {
     AOS.init({
       duration: 1000,
       easing: 'ease-in-out',
