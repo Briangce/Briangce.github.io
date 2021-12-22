@@ -5,16 +5,9 @@
 * License: https://bootstrapmade.com/license/
 */
 
-window.addEventListener('load', () => {
-  document.querySelector('#svg-map').style.cssText = 'font-size", "12px !important;'; 
-});
-document.querySelector('#svg-map').addEventListener('click', () => {
-  document.querySelector('#svg-map').style.cssText = 'font-size", "12px !important;'; 
-});
 
 (function() {
   "use strict";
-
   /**
    * Easy selector helper function
    */
