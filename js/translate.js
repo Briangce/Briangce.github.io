@@ -1,3 +1,5 @@
+$(document).ready(function () {
+
 var contryCode="BR"
     switch (contryCode) {
         case  "BR" || "PT":
@@ -110,3 +112,4 @@ var contryCode="BR"
         default:
         break;
     }
+  })
