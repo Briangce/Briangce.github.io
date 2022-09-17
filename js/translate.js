@@ -1,7 +1,4 @@
-var geo = 'http://www.geoplugin.net/json.gp', lang;
-
-$.getJSON(geo, function(data) {
-    var contryCode = data.geoplugin_countryCode;
+var contryCode="BR"
     switch (contryCode) {
         case  "BR" || "PT":
         $("#heading").html(`<li><a href="#">Home</a></li>
@@ -113,4 +110,3 @@ $.getJSON(geo, function(data) {
         default:
         break;
     }
-});
