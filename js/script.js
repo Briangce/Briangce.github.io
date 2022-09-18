@@ -3,7 +3,7 @@ $(document).ready(function () {
         cursorcolor: "#424242", // change cursor color in hex
         cursorwidth: "10px", // cursor width in pixel (you can also write "5px")
         cursorborder: "1px solid #424242", 
-        scrollspeed: 20, // scrolling speed
+        scrollspeed: 18, // scrolling speed
         mousescrollstep: 30,
         cursordragspeed: 0.2,
     });
@@ -16,9 +16,8 @@ function animation() {
     img.className = 'logo'
 }
 
-
 setTimeout(() => {
-    $("nav ul li a").click(function(e){
+    $("nav ul li a.anchor").click(function(e){
         e.preventDefault();
 
         var id = $(this).attr("href"),

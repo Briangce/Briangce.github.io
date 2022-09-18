@@ -3,13 +3,11 @@ $(document).ready(function () {
 var contryCode="BR"
     switch (contryCode) {
         case  "BR" || "PT":
-        $("#heading").html(`<li><a href="#">Home</a></li>
-        <li><a href="#bioResum">Sobre Mim</a></li>
+        $("#heading").html(`<li><a href="#" class="anchor">Home</a></li>
+        <li><a href="#bioResum" class="anchor">Sobre Mim</a></li>
         <li><a href="./archivos/cv.pdf" target="_blank">Curriculum</a></li>
-        <li><a href="#footer">Contato</a></li>
-        <li class="rs">
-    <a href="https://www.linkedin.com/in/brian-garc%C3%ADa-ces%C3%ADn-8843381a1/" target="_blank">Linkedin</a>
-  </li>`);
+        <li><a href="#footer" class="anchor">Contato</a></li>
+        <li><a href="https://www.linkedin.com/in/brian-garc%C3%ADa-ces%C3%ADn-8843381a1/" target="_blank">Linkedin</a></li>`);
         $("#bioResum").html(`<h1>Meu nome é...</h1>
         <p>
             Brian Garcia Cesín, nasci na Venezuela no 1997. Na minha

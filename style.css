@@ -373,9 +373,6 @@ div.content p#all {
 
 
 @media (min-width: 200px) and (max-width: 768px) {
-    .rs {
-        display: none !important;
-    }
     .heading li {
         display: block;
         margin-top: 1%;
