@@ -1,11 +1,12 @@
 $(document).ready(function () {
     $("html").niceScroll({
         cursorcolor: "#424242", // change cursor color in hex
-        cursorwidth: "10px", // cursor width in pixel (you can also write "5px")
+        cursorwidth: "12px", // cursor width in pixel (you can also write "5px")
         cursorborder: "1px solid #424242", 
         scrollspeed: 18, // scrolling speed
         mousescrollstep: 30,
         cursordragspeed: 0.2,
+        autohidemode: "false",
     });
 });
 
